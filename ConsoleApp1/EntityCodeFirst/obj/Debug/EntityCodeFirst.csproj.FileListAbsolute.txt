@@ -1,0 +1,15 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\bin\Debug\EntityCodeFirst.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\bin\Debug\EntityCodeFirst.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\bin\Debug\EntityCodeFirst.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.csproj.CopyComplete
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\EntityCodeFirst\obj\Debug\EntityCodeFirst.pdb

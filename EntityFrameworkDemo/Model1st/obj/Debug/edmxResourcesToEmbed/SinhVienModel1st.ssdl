@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SinhVienModel1st.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SinhVienModel1stStoreContainer">
+    <EntitySet Name="SinhViens" EntityType="SinhVienModel1st.Store.SinhViens" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Khoas" EntityType="SinhVienModel1st.Store.Khoas" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="KhoaSinhVien" Association="SinhVienModel1st.Store.KhoaSinhVien">
+      <End Role="Khoa" EntitySet="Khoas" />
+      <End Role="SinhVien" EntitySet="SinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="SinhViens">
+    <Key>
+      <PropertyRef Name="ID_SV" />
+    </Key>
+    <Property Name="ID_SV" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Khoa" Type="int" Nullable="false" />
+    <Property Name="TenSV" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Diem" Type="float" Nullable="false" />
+    <Property Name="GioiTinh" Type="bit" Nullable="false" />
+    <Property Name="NgaySinh" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Khoas">
+    <Key>
+      <PropertyRef Name="ID_Khoa" />
+    </Key>
+    <Property Name="ID_Khoa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenKhoa" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="KhoaSinhVien">
+    <End Role="Khoa" Type="SinhVienModel1st.Store.Khoas" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SinhVien" Type="SinhVienModel1st.Store.SinhViens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="ID_Khoa" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="ID_Khoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

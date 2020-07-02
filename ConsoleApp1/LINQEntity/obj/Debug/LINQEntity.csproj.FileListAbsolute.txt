@@ -1,0 +1,15 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\bin\Debug\LINQEntity.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\bin\Debug\LINQEntity.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\bin\Debug\LINQEntity.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\bin\Debug\EntityFramework.dll
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\bin\Debug\EntityFramework.xml
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.csproj.CopyComplete
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\LINQEntity\obj\Debug\LINQEntity.pdb

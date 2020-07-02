@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SinhVienModel1st.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SinhVienModel1stStoreContainer">
+    <EntitySet Name="SinhViens" EntityType="SinhVienModel1st.Store.SinhViens" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Khoas" EntityType="SinhVienModel1st.Store.Khoas" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="KhoaSinhVien" Association="SinhVienModel1st.Store.KhoaSinhVien">
+      <End Role="Khoa" EntitySet="Khoas" />
+      <End Role="SinhVien" EntitySet="SinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="SinhViens">
+    <Key>
+      <PropertyRef Name="ID_SV" />
+    </Key>
+    <Property Name="ID_SV" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Khoa" Type="int" Nullable="false" />
+    <Property Name="TenSV" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Diem" Type="float" Nullable="false" />
+    <Property Name="GioiTinh" Type="bit" Nullable="false" />
+    <Property Name="NgaySinh" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Khoas">
+    <Key>
+      <PropertyRef Name="ID_Khoa" />
+    </Key>
+    <Property Name="ID_Khoa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TenKhoa" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="KhoaSinhVien">
+    <End Role="Khoa" Type="SinhVienModel1st.Store.Khoas" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SinhVien" Type="SinhVienModel1st.Store.SinhViens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="ID_Khoa" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="ID_Khoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="SinhVienModel1st" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="SinhVienModel1stContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="SinhViens" EntityType="SinhVienModel1st.SinhVien" />
+          <EntitySet Name="Khoas" EntityType="SinhVienModel1st.Khoa" />
+          <AssociationSet Name="KhoaSinhVien" Association="SinhVienModel1st.KhoaSinhVien">
+            <End Role="Khoa" EntitySet="Khoas" />
+            <End Role="SinhVien" EntitySet="SinhViens" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="SinhVien">
+          <Key>
+            <PropertyRef Name="ID_SV" />
+          </Key>
+          <Property Name="ID_SV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_Khoa" Type="Int32" Nullable="false" />
+          <Property Name="TenSV" Type="String" Nullable="false" />
+          <Property Name="Diem" Type="Double" Nullable="false" />
+          <Property Name="GioiTinh" Type="Boolean" Nullable="false" />
+          <Property Name="NgaySinh" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Khoa" Relationship="SinhVienModel1st.KhoaSinhVien" FromRole="SinhVien" ToRole="Khoa" />
+        </EntityType>
+        <EntityType Name="Khoa">
+          <Key>
+            <PropertyRef Name="ID_Khoa" />
+          </Key>
+          <Property Name="ID_Khoa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TenKhoa" Type="String" Nullable="false" />
+          <NavigationProperty Name="SinhViens" Relationship="SinhVienModel1st.KhoaSinhVien" FromRole="Khoa" ToRole="SinhVien" />
+        </EntityType>
+        <Association Name="KhoaSinhVien">
+          <End Type="SinhVienModel1st.Khoa" Role="Khoa" Multiplicity="1" >
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="SinhVienModel1st.SinhVien" Role="SinhVien" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Khoa">
+              <PropertyRef Name="ID_Khoa" />
+            </Principal>
+            <Dependent Role="SinhVien">
+              <PropertyRef Name="ID_Khoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SinhVienModel1stStoreContainer" CdmEntityContainer="SinhVienModel1stContainer">
+    <EntitySetMapping Name="SinhViens">
+      <EntityTypeMapping TypeName="IsTypeOf(SinhVienModel1st.SinhVien)">
+        <MappingFragment StoreEntitySet="SinhViens">
+          <ScalarProperty Name="ID_SV" ColumnName="ID_SV" />
+          <ScalarProperty Name="ID_Khoa" ColumnName="ID_Khoa" />
+          <ScalarProperty Name="TenSV" ColumnName="TenSV" />
+          <ScalarProperty Name="Diem" ColumnName="Diem" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khoas">
+      <EntityTypeMapping TypeName="IsTypeOf(SinhVienModel1st.Khoa)">
+        <MappingFragment StoreEntitySet="Khoas">
+          <ScalarProperty Name="ID_Khoa" ColumnName="ID_Khoa" />
+          <ScalarProperty Name="TenKhoa" ColumnName="TenKhoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

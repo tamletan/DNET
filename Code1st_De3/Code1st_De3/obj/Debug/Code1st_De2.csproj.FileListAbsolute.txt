@@ -1,0 +1,17 @@
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De2.csprojAssemblyReference.cache
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De3.Properties.Resources.resources
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De2.csproj.GenerateResource.cache
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De2.csproj.CoreCompileInputs.cache
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De2.Form1.resources
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\bin\Debug\Code1st_De3.exe.config
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\bin\Debug\Code1st_De3.exe
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\bin\Debug\Code1st_De3.pdb
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\bin\Debug\EntityFramework.dll
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\bin\Debug\EntityFramework.xml
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De2.csproj.CopyComplete
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De3.exe
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De3.pdb
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De2.DocGiaForm.resources
+C:\Users\hpl27\Desktop\THI_HOC_KY\NET\De3\Code1st_De3\Code1st_De3\obj\Debug\Code1st_De2.SachForm.resources

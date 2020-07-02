@@ -1,0 +1,16 @@
+D:\DOTNET\QLISACH\QLISACH\bin\Debug\QLISACH.exe.config
+D:\DOTNET\QLISACH\QLISACH\bin\Debug\QLISACH.exe
+D:\DOTNET\QLISACH\QLISACH\bin\Debug\QLISACH.pdb
+D:\DOTNET\QLISACH\QLISACH\bin\Debug\EntityFramework.dll
+D:\DOTNET\QLISACH\QLISACH\bin\Debug\EntityFramework.SqlServer.dll
+D:\DOTNET\QLISACH\QLISACH\bin\Debug\EntityFramework.xml
+D:\DOTNET\QLISACH\QLISACH\bin\Debug\EntityFramework.SqlServer.xml
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.csprojAssemblyReference.cache
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.Form1.resources
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.Properties.Resources.resources
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.csproj.GenerateResource.cache
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.csproj.CoreCompileInputs.cache
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.csproj.CopyComplete
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.exe
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.pdb
+D:\DOTNET\QLISACH\QLISACH\obj\Debug\QLISACH.Form2.resources

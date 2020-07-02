@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SinhVienModel1stStoreContainer" CdmEntityContainer="SinhVienModel1stContainer">
+    <EntitySetMapping Name="SinhViens">
+      <EntityTypeMapping TypeName="IsTypeOf(SinhVienModel1st.SinhVien)">
+        <MappingFragment StoreEntitySet="SinhViens">
+          <ScalarProperty Name="ID_SV" ColumnName="ID_SV" />
+          <ScalarProperty Name="ID_Khoa" ColumnName="ID_Khoa" />
+          <ScalarProperty Name="TenSV" ColumnName="TenSV" />
+          <ScalarProperty Name="Diem" ColumnName="Diem" />
+          <ScalarProperty Name="GioiTinh" ColumnName="GioiTinh" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khoas">
+      <EntityTypeMapping TypeName="IsTypeOf(SinhVienModel1st.Khoa)">
+        <MappingFragment StoreEntitySet="Khoas">
+          <ScalarProperty Name="ID_Khoa" ColumnName="ID_Khoa" />
+          <ScalarProperty Name="TenKhoa" ColumnName="TenKhoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

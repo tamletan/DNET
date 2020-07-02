@@ -1,0 +1,11 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\bin\Debug\CSVC_3Layers.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\bin\Debug\CSVC_3Layers.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\bin\Debug\CSVC_3Layers.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\BaiTap\CSVC_3Layers\obj\Debug\CSVC_3Layers.Form2.resources

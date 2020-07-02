@@ -1,0 +1,11 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.Form2.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\bin\Debug\QLCSVC.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\bin\Debug\QLCSVC.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\bin\Debug\QLCSVC.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\MidTerm\QLCSVC\obj\Debug\QLCSVC.pdb

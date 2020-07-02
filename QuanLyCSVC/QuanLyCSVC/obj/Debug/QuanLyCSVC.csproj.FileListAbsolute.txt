@@ -1,0 +1,11 @@
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\bin\Debug\QuanLyCSVC.exe.config
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\bin\Debug\QuanLyCSVC.exe
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\bin\Debug\QuanLyCSVC.pdb
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.csprojAssemblyReference.cache
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.Form1.resources
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.Properties.Resources.resources
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.Form2.resources
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.csproj.GenerateResource.cache
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.csproj.CoreCompileInputs.cache
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.exe
+C:\Users\hpl27\Desktop\Hoc.NET\3_Layers\QuanLyCSVC\QuanLyCSVC\obj\Debug\QuanLyCSVC.pdb

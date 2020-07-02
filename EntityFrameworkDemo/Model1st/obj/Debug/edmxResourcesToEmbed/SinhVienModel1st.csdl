@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="SinhVienModel1st" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="SinhVienModel1stContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SinhViens" EntityType="SinhVienModel1st.SinhVien" />
+    <EntitySet Name="Khoas" EntityType="SinhVienModel1st.Khoa" />
+    <AssociationSet Name="KhoaSinhVien" Association="SinhVienModel1st.KhoaSinhVien">
+      <End Role="Khoa" EntitySet="Khoas" />
+      <End Role="SinhVien" EntitySet="SinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="ID_SV" />
+    </Key>
+    <Property Name="ID_SV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Khoa" Type="Int32" Nullable="false" />
+    <Property Name="TenSV" Type="String" Nullable="false" />
+    <Property Name="Diem" Type="Double" Nullable="false" />
+    <Property Name="GioiTinh" Type="Boolean" Nullable="false" />
+    <Property Name="NgaySinh" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Khoa" Relationship="SinhVienModel1st.KhoaSinhVien" FromRole="SinhVien" ToRole="Khoa" />
+  </EntityType>
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="ID_Khoa" />
+    </Key>
+    <Property Name="ID_Khoa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenKhoa" Type="String" Nullable="false" />
+    <NavigationProperty Name="SinhViens" Relationship="SinhVienModel1st.KhoaSinhVien" FromRole="Khoa" ToRole="SinhVien" />
+  </EntityType>
+  <Association Name="KhoaSinhVien">
+    <End Type="SinhVienModel1st.Khoa" Role="Khoa" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="SinhVienModel1st.SinhVien" Role="SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="ID_Khoa" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="ID_Khoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

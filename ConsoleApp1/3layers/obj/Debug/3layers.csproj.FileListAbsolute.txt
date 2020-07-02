@@ -1,0 +1,10 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\bin\Debug\3layers.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\bin\Debug\3layers.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\bin\Debug\3layers.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\obj\Debug\3layers.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\obj\Debug\_3layers.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\obj\Debug\_3layers.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\obj\Debug\3layers.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\obj\Debug\3layers.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\obj\Debug\3layers.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\3layers\obj\Debug\3layers.pdb

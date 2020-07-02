@@ -1,0 +1,16 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\bin\Debug\CodeFirstDB.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\bin\Debug\CodeFirstDB.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\bin\Debug\CodeFirstDB.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\bin\Debug\EntityFramework.dll
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\bin\Debug\EntityFramework.xml
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.csproj.CopyComplete
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\CodeFirstDB\obj\Debug\CodeFirstDB.Migrations.InitialCreate.resources

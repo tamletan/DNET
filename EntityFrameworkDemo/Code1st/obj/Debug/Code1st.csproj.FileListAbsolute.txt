@@ -1,0 +1,16 @@
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\bin\Debug\Code1st.exe.config
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\bin\Debug\Code1st.exe
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\bin\Debug\Code1st.pdb
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\bin\Debug\EntityFramework.dll
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\bin\Debug\EntityFramework.xml
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.csprojAssemblyReference.cache
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.Properties.Resources.resources
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.csproj.GenerateResource.cache
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.csproj.CoreCompileInputs.cache
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.csproj.CopyComplete
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.exe
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.pdb
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.Form1.resources
+C:\Users\hpl27\Desktop\Hoc.NET\EntityFramework\EntityFrameworkDemo\Code1st\obj\Debug\Code1st.Add_Update.resources

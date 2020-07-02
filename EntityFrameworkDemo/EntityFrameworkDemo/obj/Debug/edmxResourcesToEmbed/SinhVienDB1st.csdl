@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SinhVienModelDB1st" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KHOA">
+    <Key>
+      <PropertyRef Name="ID_Khoa" />
+    </Key>
+    <Property Name="ID_Khoa" Type="Int32" Nullable="false" />
+    <Property Name="TenKhoa" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SINHVIENs" Relationship="Self.FK__SINHVIEN__ID_Kho__4CA06362" FromRole="KHOA" ToRole="SINHVIEN" />
+  </EntityType>
+  <EntityType Name="SINHVIEN">
+    <Key>
+      <PropertyRef Name="ID_SV" />
+    </Key>
+    <Property Name="ID_SV" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Khoa" Type="Int32" />
+    <Property Name="GioiTinh" Type="Boolean" />
+    <Property Name="Diem" Type="Double" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="TenSV" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="KHOA" Relationship="Self.FK__SINHVIEN__ID_Kho__4CA06362" FromRole="SINHVIEN" ToRole="KHOA" />
+  </EntityType>
+  <Association Name="FK__SINHVIEN__ID_Kho__4CA06362">
+    <End Role="KHOA" Type="Self.KHOA" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SINHVIEN" Type="Self.SINHVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOA">
+        <PropertyRef Name="ID_Khoa" />
+      </Principal>
+      <Dependent Role="SINHVIEN">
+        <PropertyRef Name="ID_Khoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SinhVienEntitiesDB1st" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KHOAs" EntityType="Self.KHOA" />
+    <EntitySet Name="SINHVIENs" EntityType="Self.SINHVIEN" />
+    <AssociationSet Name="FK__SINHVIEN__ID_Kho__4CA06362" Association="Self.FK__SINHVIEN__ID_Kho__4CA06362">
+      <End Role="KHOA" EntitySet="KHOAs" />
+      <End Role="SINHVIEN" EntitySet="SINHVIENs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WinFormDB" Class="LINQobjDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-BT9TDDG;Initial Catalog=WinFormDB;Integrated Security=True" SettingsObjectName="linqconnect.Properties.Settings" SettingsPropertyName="WinFormDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Faculty" Member="Faculties">
+    <Type Name="Faculty">
+      <Column Name="FID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Fname" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="Faculty_Student" Member="Students" ThisKey="FID" OtherKey="FID" Type="Student" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="MSSV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Sname" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Sbirth" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="FID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DTB" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Gender" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Faculty_Student" Member="Faculty" ThisKey="FID" OtherKey="FID" Type="Faculty" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

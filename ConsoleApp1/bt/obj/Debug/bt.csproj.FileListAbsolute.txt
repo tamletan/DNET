@@ -1,0 +1,7 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\bt\obj\Debug\bt.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\bt\obj\Debug\bt.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\bt\bin\Debug\bt.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\bt\bin\Debug\bt.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\bt\bin\Debug\bt.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\bt\obj\Debug\bt.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\bt\obj\Debug\bt.pdb

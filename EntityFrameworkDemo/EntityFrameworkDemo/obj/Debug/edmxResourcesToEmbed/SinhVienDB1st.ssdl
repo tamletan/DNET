@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SinhVienModelDB1st.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KHOA">
+    <Key>
+      <PropertyRef Name="ID_Khoa" />
+    </Key>
+    <Property Name="ID_Khoa" Type="int" Nullable="false" />
+    <Property Name="TenKhoa" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="SINHVIEN">
+    <Key>
+      <PropertyRef Name="ID_SV" />
+    </Key>
+    <Property Name="ID_SV" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_Khoa" Type="int" />
+    <Property Name="GioiTinh" Type="bit" />
+    <Property Name="Diem" Type="float" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="TenSV" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK__SINHVIEN__ID_Kho__4CA06362">
+    <End Role="KHOA" Type="Self.KHOA" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="SINHVIEN" Type="Self.SINHVIEN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KHOA">
+        <PropertyRef Name="ID_Khoa" />
+      </Principal>
+      <Dependent Role="SINHVIEN">
+        <PropertyRef Name="ID_Khoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SinhVienModelDB1stStoreContainer">
+    <EntitySet Name="KHOA" EntityType="Self.KHOA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SINHVIEN" EntityType="Self.SINHVIEN" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__SINHVIEN__ID_Kho__4CA06362" Association="Self.FK__SINHVIEN__ID_Kho__4CA06362">
+      <End Role="KHOA" EntitySet="KHOA" />
+      <End Role="SINHVIEN" EntitySet="SINHVIEN" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

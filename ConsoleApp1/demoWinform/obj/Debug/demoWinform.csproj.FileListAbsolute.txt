@@ -1,0 +1,11 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\bin\Debug\demoWinform.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\bin\Debug\demoWinform.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\bin\Debug\demoWinform.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.F1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\demoWinform\obj\Debug\demoWinform.Form2.resources

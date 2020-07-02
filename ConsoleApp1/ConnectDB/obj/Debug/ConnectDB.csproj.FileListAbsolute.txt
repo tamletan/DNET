@@ -1,0 +1,10 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\bin\Debug\ConnectDB.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\bin\Debug\ConnectDB.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\bin\Debug\ConnectDB.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\obj\Debug\ConnectDB.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\obj\Debug\ConnectDB.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\obj\Debug\ConnectDB.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\obj\Debug\ConnectDB.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\obj\Debug\ConnectDB.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\obj\Debug\ConnectDB.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\ConnectDB\obj\Debug\ConnectDB.pdb

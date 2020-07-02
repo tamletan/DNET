@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WinFormDBModelStoreContainer" CdmEntityContainer="WinFormDBEntities">
+    <EntitySetMapping Name="Faculties">
+      <EntityTypeMapping TypeName="WinFormDBModel.Faculty">
+        <MappingFragment StoreEntitySet="Faculty">
+          <ScalarProperty Name="FID" ColumnName="FID" />
+          <ScalarProperty Name="Fname" ColumnName="Fname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="WinFormDBModel.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="MSSV" ColumnName="MSSV" />
+          <ScalarProperty Name="Sname" ColumnName="Sname" />
+          <ScalarProperty Name="Sbirth" ColumnName="Sbirth" />
+          <ScalarProperty Name="FID" ColumnName="FID" />
+          <ScalarProperty Name="DTB" ColumnName="DTB" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

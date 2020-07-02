@@ -1,0 +1,10 @@
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\bin\Debug\linqconnect.exe.config
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\bin\Debug\linqconnect.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\bin\Debug\linqconnect.pdb
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\obj\Debug\linqconnect.csprojAssemblyReference.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\obj\Debug\linqconnect.Form1.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\obj\Debug\linqconnect.Properties.Resources.resources
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\obj\Debug\linqconnect.csproj.GenerateResource.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\obj\Debug\linqconnect.csproj.CoreCompileInputs.cache
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\obj\Debug\linqconnect.exe
+C:\Users\tamle\Desktop\Ky 6\DNET\ConsoleApp1\linqconnect\obj\Debug\linqconnect.pdb
